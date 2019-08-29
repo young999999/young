@@ -7,6 +7,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>api</module>
+        <module>provider-dept-8001</module>
+        <module>consumer-dept-80</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -33,7 +35,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>1.5.10.RELEASE</version>
+                <version>1.5.9.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
