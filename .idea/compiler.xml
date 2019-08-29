@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka7001" />
         <module name="api" />
-        <module name="providerdept8001" />
         <module name="consumerdept80" />
+        <module name="providerdept8001" />
+        <module name="eureka7003" />
+        <module name="eureka7002" />
       </profile>
     </annotationProcessing>
   </component>
