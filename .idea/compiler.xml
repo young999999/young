@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api" />
-        <module name="consumer-dept-80" />
-        <module name="consumerdept80" />
-        <module name="eureka-7001" />
-        <module name="eureka-7002" />
-        <module name="eureka-7003" />
-        <module name="eureka7001" />
-        <module name="eureka7002" />
-        <module name="eureka7003" />
+        <module name="consumerdeptfeign" />
         <module name="provider-dept-8001" />
+        <module name="consumer-dept-80" />
         <module name="provider-dept-8002" />
         <module name="provider-dept-8003" />
+        <module name="eureka7002" />
         <module name="providerdept8001" />
+        <module name="eureka7001" />
+        <module name="eureka7003" />
+        <module name="consumerdept80" />
+        <module name="eureka-7003" />
+        <module name="eureka-7002" />
+        <module name="eureka-7001" />
+        <module name="api" />
       </profile>
     </annotationProcessing>
   </component>
