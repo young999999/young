@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-dept-8001-hystrix/pom.xml" />
       </list>
     </option>
   </component>
