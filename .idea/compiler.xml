@@ -8,21 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consumerdeptfeign" />
         <module name="consumer-dept-80" />
-        <module name="provider-dept-8001" />
         <module name="providerdept8003" />
+        <module name="provider-dept-8001-hystrix" />
+        <module name="provider-dept-8001" />
         <module name="providerdept8002" />
+        <module name="eureka7003" />
+        <module name="eureka7002" />
         <module name="providerdept8001" />
         <module name="eureka7001" />
-        <module name="eureka7002" />
-        <module name="eureka7003" />
         <module name="consumerdept80" />
         <module name="eureka-7003" />
         <module name="eureka-7002" />
         <module name="eureka-7001" />
         <module name="microservicecloud-consumer-hystrix-dashboard" />
+        <module name="microservicecloud-zuul-gateway-9527" />
         <module name="api" />
         <module name="providerdept8001hystrix" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="providerdept8001hystrix" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
