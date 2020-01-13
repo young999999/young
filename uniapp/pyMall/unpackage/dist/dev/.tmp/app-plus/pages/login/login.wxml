@@ -1,0 +1,1 @@
+<view><cu-custom vue-id="1" bgColor="bg-gradual-pink" isBack="{{false}}" bind:__l="__l" vue-slots="{{['content','backText']}}"><view slot="content">登录</view><view slot="backText">返回</view></cu-custom><button type="primary">除了微信登录</button></view>

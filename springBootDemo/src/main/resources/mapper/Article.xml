@@ -22,4 +22,5 @@
         id, title, mdContent, htmlContent, summary, cid, uid, publishDate, editTime, state, pageView
     </sql>
 
+
 </mapper>

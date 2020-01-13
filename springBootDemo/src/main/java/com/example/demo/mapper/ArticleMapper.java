@@ -8,9 +8,10 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  *  Mapper 接口
  * </p>
  *
- * @author BaoZhou
+ * @author young
  * @since 2020-01-03
  */
+
 public interface ArticleMapper extends BaseMapper<Article> {
 
 }

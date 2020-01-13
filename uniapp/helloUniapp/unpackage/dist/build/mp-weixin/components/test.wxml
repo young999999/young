@@ -1,0 +1,1 @@
+<view class="_div"><view class="_h3">{{"我是test组件"+msg}}</view><button type="primary" data-event-opts="{{[['tap',[['test']]]]}}" bindtap="__e">event</button></view>

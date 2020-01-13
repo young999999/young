@@ -1,0 +1,1 @@
+<view><page-head vue-id="1" title="{{title}}" bind:__l="__l"></page-head><view><view class="demo"><block wx:if="{{imageSrc}}"><view><image style="height:100rpx;width:100px;" src="{{imageSrc}}"></image></view></block><block wx:else><view><view data-event-opts="{{[['tap',[['chooseImage',['$event']]]]]}}" bindtap="__e">+ 选择图片</view></view></block></view></view></view>

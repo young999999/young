@@ -1,14 +1,9 @@
 server:
-  servlet:
-    context-path: /demo-druid
   port: 8087
-
-    #logging.file=demo-druid.log
-    #
-    #debug=false
-  #logging.level.com.yuan=off 
-
-
+  #logging.file=demo-druid.log
+  #
+  #debug=false
+  #logging.level.com.yuan=off
 spring:
   profiles:
     active: druid, mybatisplus
@@ -78,12 +73,17 @@ spring:
             delete-where-none-check: true
       # 合并多个DruidDataSource的监控数据
       use-global-data-source-stat: true
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+  mail:
+    host: smtp.qq.com
+    username: 1972780113@qq.com
+    password: gntbqujvmevibfai #授权码，不是登录密码
+    default-encoding: utf-8
+    #port:
 
     
     
@@ -96,6 +96,7 @@ mybatis-plus:
       db-type: mysql
       logic-delete-value: 1 # 逻辑已删除值(默认为 1)
       logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
-      table-prefix:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #控制台显示sql语句
   mapper-locations: classpath:/mapper/*.xml
 

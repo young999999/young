@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "新闻页"
+			}
+		}, {
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "登录页"
+			}
+		}, {
+			"path": "components/linked"
+		}, {
+			"path": "components/video"
+		}, {
+			"path": "components/music"
+		}
+
+	],
+
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#0000FF",
+		"borderStyle": "black",
+		"backgroundColor": "#FF8C00",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/home1.png"
+		}, {
+			"pagePath": "pages/news/news",
+			"text": "新闻",
+			"iconPath": "static/news.png",
+			"selectedIconPath": "static/news1.png"
+		}, {
+			"pagePath": "pages/test/test",
+			"text": "登录",
+			"iconPath": "static/login.png",
+			"selectedIconPath": "static/login1.png"
+		}]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true,
+		"navigationStyle": "custom"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
