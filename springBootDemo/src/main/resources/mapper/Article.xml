@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.ArticleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.demo.javabean.Article">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="mdContent" property="mdContent" />
+        <result column="htmlContent" property="htmlContent" />
+        <result column="summary" property="summary" />
+        <result column="cid" property="cid" />
+        <result column="uid" property="uid" />
+        <result column="publishDate" property="publishDate" />
+        <result column="editTime" property="editTime" />
+        <result column="state" property="state" />
+        <result column="pageView" property="pageView" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, title, mdContent, htmlContent, summary, cid, uid, publishDate, editTime, state, pageView
+    </sql>
+
+</mapper>
