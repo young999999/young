@@ -9,13 +9,14 @@ spring:
   profiles:
     active: druid, mybatisplus
   application:
-    name: demo-druid
+    name: spider
+
   datasource:
     # 配置数据源
     driver-class-name: com.mysql.jdbc.Driver
     # 使用druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://47.98.53.232:3306/vueblog2?characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&useSSL=true
+    url: jdbc:mysql://47.98.53.232:3306/movie?characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&useSSL=true
     username: root
     password: 1234
     druid:
@@ -88,6 +89,7 @@ mybatis-plus:
       db-type: mysql
       logic-delete-value: 1 # 逻辑已删除值(默认为 1)
       logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
-      table-prefix:
   mapper-locations: classpath:/mapper/*.xml
+#  configuration:
+#    map-underscore-to-camel-case: true
 

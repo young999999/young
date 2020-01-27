@@ -1,0 +1,12 @@
+com\spider\entity\Page.class
+com\spider\service\impl\HttpClientDownloadService.class
+com\spider\start\StartDSJcount.class
+com\spider\service\IDownLoadService.class
+com\spider\service\IProcessService.class
+com\spider\util\PageDownUtil.class
+com\spider\entity\Movie.class
+com\spider\config\MyBatisPlusConfig.class
+com\spider\mapper\MovieMapper.class
+com\spider\service\impl\MovieListProcessServiceImpl.class
+com\spider\SpiderApplication.class
+com\spider\controller\MovieController.class

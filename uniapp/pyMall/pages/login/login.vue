@@ -1,22 +1,24 @@
 <template>
 	<view>
 		<!-- 导航 -->
-		<cu-custom bgColor="bg-gradual-pink" :isBack="false">
+		<cu-custom bgColor="bg-gradual-pink" :isBack="true">
 			<block slot="content">登录</block>
 			<block slot="backText">返回</block>
 		</cu-custom>
+
+
+
+
 
 		<!-- #ifdef MP-WEIXIN -->
 		<button type="primary" open-type="getUserInfo" @getuserinfo="getUserInfo">微信登录</button>
 		<!-- #endif -->
 		<!-- #ifndef MP-WEIXIN -->
-		<button type="primary">除了微信登录</button>
+		<button type="primary" style="bottom: 0rpx;">除了微信登录</button>
 		<!-- #endif -->
 
 	</view>
-</template>
-
-<script>
+</template
 	export default {
 		data() {
 			return {
@@ -24,6 +26,9 @@
 			}
 		},
 		onLoad() {
+
+		},
+		onReady() {
 
 		},
 		methods: {
@@ -44,8 +49,8 @@
 								console.log(infoRes);
 								if (infoRes.iv) {
 									console.log("登录成功");
-									uni.setStorageSync('suid','suid');
-									uni.setStorageSync('srand','srand');
+									uni.setStorageSync('suid', 'suid');
+									uni.setStorageSync('srand', 'srand');
 									uni.navigateBack({
 										url: "../index/index"
 									})
@@ -62,6 +67,6 @@
 	}
 </script>
 
-<style>
+<style scoped>
 
 </style>

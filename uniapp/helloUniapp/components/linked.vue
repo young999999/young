@@ -126,7 +126,7 @@ var id={id:109};
 		onReady() {
 			uni.hideLoading();
 			uni.request({
-			    url: 'http://m.leqiuba8.com/e/extend/list/list.php', //仅为示例，并非真实接口地址。
+			    url: 'https://tv.youkutv.cc/2020/01/12/SzlcnpxUwCNTmZWr/', //仅为示例，并非真实接口地址。
 			 //    data: {
 			 //        id:109,
 				// 	name:'zj'

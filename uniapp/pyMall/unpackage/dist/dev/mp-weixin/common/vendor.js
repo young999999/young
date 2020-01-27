@@ -7520,9 +7520,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!***********************************************!*\
-  !*** E:/实战项目/mycode/uniapp/pyMall/pages.json ***!
-  \***********************************************/
+/*!*******************************************************!*\
+  !*** E:/实战项目/GitSpace/young/uniapp/pyMall/pages.json ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8427,20 +8427,20 @@ module.exports = {"_from":"@dcloudio/uni-stat@^2.0.0-alpha-24420191128001","_id"
 
 /***/ }),
 /* 7 */
-/*!****************************************************************!*\
-  !*** E:/实战项目/mycode/uniapp/pyMall/pages.json?{"type":"style"} ***!
-  \****************************************************************/
+/*!************************************************************************!*\
+  !*** E:/实战项目/GitSpace/young/uniapp/pyMall/pages.json?{"type":"style"} ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "首页", "usingComponents": { "search": "/components/search", "picture-swiper": "/components/pictureSwiper" } }, "pages/my/my": { "navigationBarTitleText": "我的", "usingComponents": {} }, "pages/login/login": { "usingComponents": {} }, "components/search": { "usingComponents": {} }, "components/pictureSwiper": { "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#F8F8F8", "backgroundColor": "#F8F8F8", "enablePullDownRefresh": true, "navigationStyle": "custom" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "首页", "usingComponents": { "search": "/components/search", "picture-swiper": "/components/pictureSwiper", "seckill": "/components/seckill" } }, "pages/my/my": { "navigationBarTitleText": "我的", "usingComponents": {} }, "pages/login/login": { "usingComponents": {} }, "components/search": { "usingComponents": {} }, "components/pictureSwiper": { "usingComponents": {} }, "components/video": { "usingComponents": {} }, "pages/movie/movie": { "navigationBarTitleText": "电影", "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#F8F8F8", "backgroundColor": "#F8F8F8", "enablePullDownRefresh": true, "navigationStyle": "custom" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
-/*!***************************************************************!*\
-  !*** E:/实战项目/mycode/uniapp/pyMall/pages.json?{"type":"stat"} ***!
-  \***************************************************************/
+/*!***********************************************************************!*\
+  !*** E:/实战项目/GitSpace/young/uniapp/pyMall/pages.json?{"type":"stat"} ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

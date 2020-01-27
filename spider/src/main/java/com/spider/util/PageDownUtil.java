@@ -1,5 +1,9 @@
 package com.spider.util;
 
+import com.spider.entity.Movie;
+import com.spider.entity.Page;
+import com.spider.mapper.MovieMapper;
+import com.spider.service.impl.HttpClientDownloadService;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -8,6 +12,8 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import java.io.IOException;
 
@@ -15,9 +21,11 @@ import java.io.IOException;
  * @author young
  * @create 2020-01-18 16:09
  */
+
 public class PageDownUtil {
     public static String getPageContent(String url) {
         HttpClientBuilder builder = HttpClients.custom();
+        builder.setUserAgent("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36");
         CloseableHttpClient client = builder.build();
 
         HttpGet request = new HttpGet(url);
@@ -37,9 +45,14 @@ public class PageDownUtil {
         return content;
     }
 
+    @Autowired
+    static MovieMapper movieMapper;
     public static void main(String[] args) {
-        String url ="https://v.youku.com/v_show/id_XNDQ5NjA0MTk1Ng==.html?spm=a2hcb.12523948.m_5295_c_12649.d_1&s=ecef33670f3044059de9&scm=20140719.manual.5295.show_ecef33670f3044059de9";
-        String pageContent = getPageContent(url);
-        System.err.println(pageContent);
+        Movie movie = movieMapper.selectById(1);
+        System.err.println(movie);
+//        String url ="https://api.123zx.net/?m=vod-index-pg-888.html";
+//        HttpClientDownloadService httpClientDownloadService = new HttpClientDownloadService();
+//        Page page=httpClientDownloadService.download(url);
+//        System.err.println(page.getContent());
     }
 }

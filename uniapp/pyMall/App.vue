@@ -52,7 +52,10 @@
 </script>
 
 <style>
-	/*每个页面公共css */
-	@import "colorui/main.css";
+	/* #ifndef APP-NVUE */
+		@import "colorui/main.css";
 	@import "colorui/icon.css";
+	/* #endif */
+	/*每个页面公共css */
+
 </style>

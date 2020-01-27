@@ -79,6 +79,20 @@ spring:
       # 合并多个DruidDataSource的监控数据
       use-global-data-source-stat: true
 
+#  elasticsearch:
+#    rest:
+#      uris: 47.98.53.232:9200
+#      username: my-application
+
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.1.68:9300
+#      cluster-nodes: 47.98.53.232:9300
+      cluster-name: my-application
+
+
+
+
 
   mvc:
     static-path-pattern: /**   #静态资源访问路径
@@ -86,12 +100,14 @@ spring:
     static-locations: classpath:/static/ #静态资源文件夹
 
 
+
   mail:
     host: smtp.qq.com
     username: 1972780113@qq.com
     password: gntbqujvmevibfai
     default-encoding: utf-8
-    #port:
+        #port:
+
 
 mybatis-plus:
   global-config:
@@ -102,7 +118,6 @@ mybatis-plus:
       db-type: mysql
       logic-delete-value: 1 # 逻辑已删除值(默认为 1)
       logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
-      table-prefix:
   mapper-locations: classpath:/mapper/*.xml
 
 myip: localhost #192.168.199.1

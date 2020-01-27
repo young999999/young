@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 
 import com.example.demo.javabean.Article;
+import com.example.demo.mapper.UserMapper;
 import com.example.demo.service.IArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -22,6 +23,9 @@ import org.springframework.web.bind.annotation.*;
 public class ArticleController {
     @Autowired
     IArticleService articleService;
+    @Autowired
+    UserMapper userMapper;
+
 
 
 //    @PostMapping("/article1")//搭配@RequestParam；http://localhost:8087/article/article1?id=109
@@ -30,6 +34,8 @@ public class ArticleController {
     @ResponseBody
 //    public Article test2(@RequestBody Article id) {
     public Article test2(/*@PathVariable("id")*//*@RequestParam*/ Integer id,/*@RequestParam*/ String name) {
+
+
 
         System.err.println(id+" "+name);
 //        System.out.println(id+" ");

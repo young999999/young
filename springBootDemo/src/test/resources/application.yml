@@ -73,7 +73,9 @@ spring:
             delete-where-none-check: true
       # 合并多个DruidDataSource的监控数据
       use-global-data-source-stat: true
-
+  data:
+    elasticsearch:
+      cluster-nodes: 47.98.53.232:9300
 
 
 
@@ -99,4 +101,6 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #控制台显示sql语句
   mapper-locations: classpath:/mapper/*.xml
+
+
 

@@ -33,9 +33,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 /* 4 */
-/*!***********************************************!*\
-  !*** E:/实战项目/mycode/uniapp/pyMall/pages.json ***!
-  \***********************************************/
+/*!*******************************************************!*\
+  !*** E:/实战项目/GitSpace/young/uniapp/pyMall/pages.json ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -65,20 +65,20 @@ eval("module.exports = {\"_from\":\"@dcloudio/uni-stat@^2.0.0-alpha-244201911280
 
 /***/ }),
 /* 7 */
-/*!****************************************************************!*\
-  !*** E:/实战项目/mycode/uniapp/pyMall/pages.json?{"type":"style"} ***!
-  \****************************************************************/
+/*!************************************************************************!*\
+  !*** E:/实战项目/GitSpace/young/uniapp/pyMall/pages.json?{"type":"style"} ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default = { \"pages\": { \"pages/index/index\": { \"navigationBarTitleText\": \"首页\", \"usingComponents\": { \"search\": \"/components/search\", \"picture-swiper\": \"/components/pictureSwiper\" }, \"usingGlobalComponents\": { \"cu-custom\": \"/colorui/components/cu-custom\" } }, \"pages/my/my\": { \"navigationBarTitleText\": \"我的\", \"usingComponents\": {} }, \"pages/login/login\": { \"usingComponents\": {}, \"usingGlobalComponents\": { \"cu-custom\": \"/colorui/components/cu-custom\" } }, \"components/search\": { \"usingComponents\": {} }, \"components/pictureSwiper\": { \"usingComponents\": {} } }, \"globalStyle\": { \"navigationBarTextStyle\": \"black\", \"navigationBarTitleText\": \"uni-app\", \"navigationBarBackgroundColor\": \"#F8F8F8\", \"backgroundColor\": \"#F8F8F8\", \"enablePullDownRefresh\": true, \"navigationStyle\": \"custom\" } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJzR0FBZSxFQUFDLFNBQVEsRUFBQyxxQkFBb0IsRUFBQywwQkFBeUIsSUFBMUIsRUFBK0IsbUJBQWtCLEVBQUMsVUFBUyxvQkFBVixFQUErQixrQkFBaUIsMkJBQWhELEVBQWpELEVBQThILHlCQUF3QixFQUFDLGFBQVksK0JBQWIsRUFBdEosRUFBckIsRUFBME4sZUFBYyxFQUFDLDBCQUF5QixJQUExQixFQUErQixtQkFBa0IsRUFBakQsRUFBeE8sRUFBNlIscUJBQW9CLEVBQUMsbUJBQWtCLEVBQW5CLEVBQXNCLHlCQUF3QixFQUFDLGFBQVksK0JBQWIsRUFBOUMsRUFBalQsRUFBOFkscUJBQW9CLEVBQUMsbUJBQWtCLEVBQW5CLEVBQWxhLEVBQXliLDRCQUEyQixFQUFDLG1CQUFrQixFQUFuQixFQUFwZCxFQUFULEVBQXFmLGVBQWMsRUFBQywwQkFBeUIsT0FBMUIsRUFBa0MsMEJBQXlCLFNBQTNELEVBQXFFLGdDQUErQixTQUFwRyxFQUE4RyxtQkFBa0IsU0FBaEksRUFBMEkseUJBQXdCLElBQWxLLEVBQXVLLG1CQUFrQixRQUF6TCxFQUFuZ0IsRSIsImZpbGUiOiI3LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wicGFnZXNcIjp7XCJwYWdlcy9pbmRleC9pbmRleFwiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIummlumhtVwiLFwidXNpbmdDb21wb25lbnRzXCI6e1wic2VhcmNoXCI6XCIvY29tcG9uZW50cy9zZWFyY2hcIixcInBpY3R1cmUtc3dpcGVyXCI6XCIvY29tcG9uZW50cy9waWN0dXJlU3dpcGVyXCJ9LFwidXNpbmdHbG9iYWxDb21wb25lbnRzXCI6e1wiY3UtY3VzdG9tXCI6XCIvY29sb3J1aS9jb21wb25lbnRzL2N1LWN1c3RvbVwifX0sXCJwYWdlcy9teS9teVwiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuaIkeeahFwiLFwidXNpbmdDb21wb25lbnRzXCI6e319LFwicGFnZXMvbG9naW4vbG9naW5cIjp7XCJ1c2luZ0NvbXBvbmVudHNcIjp7fSxcInVzaW5nR2xvYmFsQ29tcG9uZW50c1wiOntcImN1LWN1c3RvbVwiOlwiL2NvbG9ydWkvY29tcG9uZW50cy9jdS1jdXN0b21cIn19LFwiY29tcG9uZW50cy9zZWFyY2hcIjp7XCJ1c2luZ0NvbXBvbmVudHNcIjp7fX0sXCJjb21wb25lbnRzL3BpY3R1cmVTd2lwZXJcIjp7XCJ1c2luZ0NvbXBvbmVudHNcIjp7fX19LFwiZ2xvYmFsU3R5bGVcIjp7XCJuYXZpZ2F0aW9uQmFyVGV4dFN0eWxlXCI6XCJibGFja1wiLFwibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwidW5pLWFwcFwiLFwibmF2aWdhdGlvbkJhckJhY2tncm91bmRDb2xvclwiOlwiI0Y4RjhGOFwiLFwiYmFja2dyb3VuZENvbG9yXCI6XCIjRjhGOEY4XCIsXCJlbmFibGVQdWxsRG93blJlZnJlc2hcIjp0cnVlLFwibmF2aWdhdGlvblN0eWxlXCI6XCJjdXN0b21cIn19Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///7\n");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default = { \"pages\": { \"pages/index/index\": { \"navigationBarTitleText\": \"首页\" }, \"pages/my/my\": { \"navigationBarTitleText\": \"我的\" }, \"pages/movie/movie\": { \"navigationBarTitleText\": \"电影\" }, \"pages/login/login\": {}, \"components/search\": {}, \"components/pictureSwiper\": {}, \"components/video\": {} }, \"globalStyle\": { \"navigationBarTextStyle\": \"black\", \"navigationBarTitleText\": \"uni-app\", \"navigationBarBackgroundColor\": \"#F8F8F8\", \"backgroundColor\": \"#F8F8F8\", \"enablePullDownRefresh\": true, \"navigationStyle\": \"custom\" } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJzR0FBZSxFQUFDLFNBQVEsRUFBQyxxQkFBb0IsRUFBQywwQkFBeUIsSUFBMUIsRUFBckIsRUFBcUQsZUFBYyxFQUFDLDBCQUF5QixJQUExQixFQUFuRSxFQUFtRyxxQkFBb0IsRUFBQywwQkFBeUIsSUFBMUIsRUFBdkgsRUFBdUoscUJBQW9CLEVBQTNLLEVBQThLLHFCQUFvQixFQUFsTSxFQUFxTSw0QkFBMkIsRUFBaE8sRUFBbU8sb0JBQW1CLEVBQXRQLEVBQVQsRUFBbVEsZUFBYyxFQUFDLDBCQUF5QixPQUExQixFQUFrQywwQkFBeUIsU0FBM0QsRUFBcUUsZ0NBQStCLFNBQXBHLEVBQThHLG1CQUFrQixTQUFoSSxFQUEwSSx5QkFBd0IsSUFBbEssRUFBdUssbUJBQWtCLFFBQXpMLEVBQWpSLEUiLCJmaWxlIjoiNy5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInBhZ2VzXCI6e1wicGFnZXMvaW5kZXgvaW5kZXhcIjp7XCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLpppbpobVcIn0sXCJwYWdlcy9teS9teVwiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuaIkeeahFwifSxcInBhZ2VzL21vdmllL21vdmllXCI6e1wibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi55S15b2xXCJ9LFwicGFnZXMvbG9naW4vbG9naW5cIjp7fSxcImNvbXBvbmVudHMvc2VhcmNoXCI6e30sXCJjb21wb25lbnRzL3BpY3R1cmVTd2lwZXJcIjp7fSxcImNvbXBvbmVudHMvdmlkZW9cIjp7fX0sXCJnbG9iYWxTdHlsZVwiOntcIm5hdmlnYXRpb25CYXJUZXh0U3R5bGVcIjpcImJsYWNrXCIsXCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCJ1bmktYXBwXCIsXCJuYXZpZ2F0aW9uQmFyQmFja2dyb3VuZENvbG9yXCI6XCIjRjhGOEY4XCIsXCJiYWNrZ3JvdW5kQ29sb3JcIjpcIiNGOEY4RjhcIixcImVuYWJsZVB1bGxEb3duUmVmcmVzaFwiOnRydWUsXCJuYXZpZ2F0aW9uU3R5bGVcIjpcImN1c3RvbVwifX0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///7\n");
 
 /***/ }),
 /* 8 */
-/*!***************************************************************!*\
-  !*** E:/实战项目/mycode/uniapp/pyMall/pages.json?{"type":"stat"} ***!
-  \***************************************************************/
+/*!***********************************************************************!*\
+  !*** E:/实战项目/GitSpace/young/uniapp/pyMall/pages.json?{"type":"stat"} ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

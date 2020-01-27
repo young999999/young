@@ -2,6 +2,7 @@
   "navigationBarTitleText": "首页",
   "usingComponents": {
     "search": "/components/search",
-    "picture-swiper": "/components/pictureSwiper"
+    "picture-swiper": "/components/pictureSwiper",
+    "seckill": "/components/seckill"
   }
 }

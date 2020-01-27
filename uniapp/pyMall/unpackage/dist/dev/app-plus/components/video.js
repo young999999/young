@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"mVideo.",[1],"data-v-30da6f38{ width: 100%; }\n",],undefined,{path:"./components/video.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./components/video.wxml') } }));

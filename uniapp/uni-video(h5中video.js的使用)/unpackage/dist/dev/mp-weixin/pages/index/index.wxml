@@ -1,0 +1,1 @@
+<view class="content"><view data-ref="video" class="video-js vue-ref"></view></view>

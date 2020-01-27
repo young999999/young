@@ -13,11 +13,19 @@
 				// "navigationStyle": "custom" /* 取消默认导航，也可以配置全局style中（则全局取消） */
 			}
 		}, {
+			"path": "pages/movie/movie",
+			"style": {
+				"navigationBarTitleText": "电影"
+				// "navigationStyle": "custom" /* 取消默认导航，也可以配置全局style中（则全局取消） */
+			}
+		}, {
 			"path": "pages/login/login"
 		}, {
 			"path": "components/search"
 		}, {
 			"path": "components/pictureSwiper"
+		}, {
+			"path": "components/video"
 		}
     ],
 	"tabBar": {
@@ -35,6 +43,11 @@
 			"iconPath": "static/tab-my.png",
 			"selectedIconPath": "static/tab-my-current.png",
 			"text": "我的"
+		}, {
+			"pagePath": "pages/movie/movie",
+			"iconPath": "static/tab-my.png",
+			"selectedIconPath": "static/tab-my-current.png",
+			"text": "电影"
 		}]
 	},
 	"globalStyle": {
